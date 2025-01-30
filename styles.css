@@ -1,0 +1,59 @@
+body {
+    background-image: url("/img/heroes.png");
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Permite centrar la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 10px 0;
+}
+
+.header {
+    position: absolute;
+    top: 2%; /* Ajusta la distancia desde arriba */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(218, 210, 255, 0.5);
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 20px; /* Espaciado entre imagen y texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    height: 65%; /* Se ajusta al alto del container */
+    width: auto; /* Mantiene la proporción */
+}
+
+.text {
+    flex: 1; /* Ocupa el espacio restante */
+    font-size: 14px;
+    color: #333;
+    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
+}
+
+.sp {
+    height: 60px; /* Ajusta el tamaño de la imagen */
+    width: auto; /* Mantiene la proporción */
+}
